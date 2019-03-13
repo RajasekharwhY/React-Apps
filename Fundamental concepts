@@ -1,0 +1,14 @@
+Three simple concepts to understnad 
+1.Components:
+-------------
+In react we Describe user Interfaces with components. (Javascipt functions).
+The components are just like funcitons they take some input and out put some thing just like functions.
+Components they recieve some input objects and they output the description of a user interface. We can re use the single
+components in multiple user interfaces.
+And a component can contain other components. 
+
+You don't Invoke react component, You just use it in your html as a regualr html component.
+
+2. The state of Reactive Updates:
+---------------------------------
+3.
