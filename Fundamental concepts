@@ -6,9 +6,37 @@ The components are just like funcitons they take some input and out put some thi
 Components they recieve some input objects and they output the description of a user interface. We can re use the single
 components in multiple user interfaces.
 And a component can contain other components. 
+React components can be of two types: 1. function component 2. class component.
+Class components are bit more powerful.Both types are stateful or purely
+representational. They take set of props and state as input and outputs what looks like as html.
+but really a special javascipt syntax called jsx. The props input is a explict one it is similar to a 
+attributes of a html element can have. The state input is a internal one,but it is the really the more
+intresting one becase of how react uses it to auto reflect changes in the in browser.
+These two input objects have important difference. with in a component the state object can be changed. 
+while the props object represents fixed values. Propes are immutable.
+Components can only change their interanl states but not there properties. This is a core IDea to understand in react.
+ 
 
 You don't Invoke react component, You just use it in your html as a regualr html component.
 
 2. The state of Reactive Updates:
 ---------------------------------
-3.
+It's reactive nature of updates (React name in its simple explanation of this concept) When the state of react component,
+the input changes , the user interface it represents , the out put changes as well. The change in the description of the user interface
+has to be reflected in the device we are working with. In the browse, we need to generate the html view in the dom tree.
+With react we dont need to worry about how to reflect these changes or even manage when to take chagnes to the browser. 
+React will simply react to the changes in a componenet's state adn automatically updateh parts of the DOM that need to be updated.
+
+3.Virtual DOM (or tree reconsilation algorithm)
+-----------------------------------------------
+Third concept of react is its virtual representation of views in memory. to build html applications with react we dont write html at all.
+we use javascript to write html. why because, when your web application recieves just data from the server in the background with AJAX.
+You need something more than HTML to work with that data.And you have two options. you can use an enhanced HTML template that has loops and conditions.
+(you can use the enhanced html template that has loops and conditions.)
+
+or you can relay on the power of Javascript itselft to generate the html from the data.  Both approaches has advantages and disadvantages.
+React pics the later (user power of javascript to generate html) and eliminates the extra step needdd to parse and enhanced html template.
+
+One big advantage of this HTML and Javascript approach is how it enables React to Keep and use the Virtual representation of HTML view in memory.
+Which is commonly known as Virtual DOM (or tree reconsilation algorithm). React uses virtual DOM, react uses virtual DOM to compare versions of the U.I
+in memory before it acts on them. 
