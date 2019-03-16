@@ -47,7 +47,7 @@ while the props object represents fixed values. Propes are immutable.
 Components can only change their interanl states but not there properties. This is a core IDea to understand in react.
  
 
-You don't Invoke react component, You just use it in your html as a regualr html component.
+You don't Invoke react component, You just use it in your html as a regualr html element just like <component />.
 
 2. The state of Reactive Updates:
 ---------------------------------
