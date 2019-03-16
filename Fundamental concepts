@@ -1,3 +1,33 @@
+As a developer why you like React : 
+1. It is a declarative -> you declare what you want using react and model the state of the User Interface, 
+and react will deal with how part and create the U.I
+2. Working with DOM API is hard, With react you can work with Virtual Browser that is friendlier than the real browser.
+One of the reason why react gain more popularity is becasue of performance gain use of Virtual DOM 
+(you dont need to deal the DOM API). 
+3. Very small set of API to learn React, you need to be good at Javascript, you automatically good at react.
+4. Learning React pays off big benefits for build Android and IOS appliations. 
+React Native allows you to use your same react skills to build native moblie applciations. You can share same logic
+between web, Android and IOS applications. 
+
+
+React is not a complete solution, React is a library...
+So you need other soluitons to achive other web development goals. React is small (it focuses on only one thing building user Interfaces)
+it is not a complete solution, you need other libraries to form a complete soluiton. 
+
+User Interface is nothing but anything in front of the user to interact with the machine.
+User interfaces are every where from small buttons to Dashboards...
+If any device we are trying to use can understand javascript we can use react to build User Interface on that device.
+
+React is declarative : We describe user Interface to react, but not tell react how to do it.
+react translate to how and tranlate the declarative descriptions which we write in react language to 
+actual user interfaces in the browser. 
+
+HTML is declarative for static content
+React is delcarative for dynamic content/data.
+
+You need to be a good javascript developer to be a good React developer. 
+
+ 
 Three simple concepts to understnad 
 1.Components:
 -------------
