@@ -1,1 +1,18 @@
 
+One way not to do is 
+by assigning the component state directly 
+
+this.state.showComments = true; (you should not do this)
+will not work
+
+right way to do is
+==========================================
+this.setState({showComments : true}) 
+==========================================
+--> passing object
+show comments to True. This will update the 
+shwo componet property and rerender the component.
+
+calling setState only replace the properties whcih are 
+passed as a orguments. and not replace the entire
+state object. 
