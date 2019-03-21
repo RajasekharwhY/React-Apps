@@ -1,1 +1,9 @@
 
+
+class CommentBox extends React.Componet
+{
+constructor()
+{
+super(); -> super must be called in our constructor
+this.state = { showComments: false };  --> Setting the Intial state to false. 
+}
