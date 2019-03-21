@@ -1,4 +1,4 @@
-
+Step 2 : Set Intial state
 
 class CommentBox extends React.Componet
 {
