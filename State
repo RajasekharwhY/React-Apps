@@ -1,0 +1,43 @@
+Let's write a new feature for an app
+we want to add a button on UI with show comments (intially comments are hidden)
+when button is clicked we change the button text to hide comments and display the comments.  
+to achieve above we can do it in two ways : 
+1. Direct way of updating the DOM  : Jquery, Backbone ( We access the DOM api directly using javascript as a response from
+browser events) we have event listners that executes certain actions when they are clicked. 
+$('.show-btn').on.('click', function()
+{
+$('comment-list').show();  -> Manually manipulating the DOM , causing the comments element to show
+})
+
+$('.hide-btn').on.('click', function()
+{
+$('comment-list').hide(); -> Manually manipulating the DOM, causing the comments element to hide 
+})
+
+2. Indirect way of updating the DOM : React 
+With this approach, we don't modify the DOM directly, Instead we modify the component state object 
+in response to user event and let react updates to handle DOM. 
+
+Let's look at the code : 
+
+render()
+{
+const comments = this._getComments();
+let commentNodes;
+if(this.state.showComments)  --> Display logic based on state change.
+{ 
+// code to dispaly comments
+commentNodes = <div className = "comment-list">{}</div>;
+}
+else
+{
+// code to hide comments
+commentNodes = <div className =
+}
+}
+
+The state is a javascript object that lives inside 
+a each component, we can access it using this.
+
+Intially we need to set the state.showComments to false ? to do this 
+we need to do it in constructor. 
