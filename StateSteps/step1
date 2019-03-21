@@ -1,0 +1,19 @@
+render()
+{
+const comments = this._getComments();
+let commentNodes;
+if(this.state.showComments)  --> Display logic based on state change.
+{ 
+// code to dispaly comments
+commentNodes = <div className = "comment-list">{}</div>;
+}
+else
+{
+// code to hide comments
+commentNodes = <div className =
+}
+}
+
+
+The state is a javascript object that lives inside 
+a each component, we can access it using this.
