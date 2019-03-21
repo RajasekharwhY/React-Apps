@@ -3,6 +3,6 @@ Why Redux is used ?  Redux is a js libraty to maintain the state, with redux you
 Why Babel ? 
 1.Babel is a tool chain that mainly used to convert teh ECMAScript 2015+ code in to backword 
 compatable version of javascript in current and older browsers or environments. 
-2.Babel can convert JSX syntax!
+2.Babel can convert JSX syntax! compiled to Javascript
 
 Why Webpack ? Web pack is a build tool that puts all of your assets including javascript, images, css in a dependency graph. 
