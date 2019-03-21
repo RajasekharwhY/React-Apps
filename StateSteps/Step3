@@ -1,4 +1,5 @@
-
+Update the state to a response to a user action:
+-------------------------------------------------
 One way not to do is 
 by assigning the component state directly 
 
