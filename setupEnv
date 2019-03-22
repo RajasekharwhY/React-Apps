@@ -1,5 +1,11 @@
-create react app (to bootstrap a react application) is released by facebook. 
+Create react app (to bootstrap a react application) is released by facebook. 
 get started with how to work with create react app :
 Step1: Install the create react app package. (For this you need to have nodejs and npm installed)
 -g opiton to install globally -- that means the installed binary executables will be available anywhere..
+
+1. Install Node.js and NPM
+2. Test if node and npm is installed ( Node -v, npm -v)
+3. Install create-react-app (npm install -g create-react-app)
+4. Your first reactapp (create-react-app myFirstReactApp) creates the react app in the specificd folder "MyFirstReactApp"
+5. npm start -> to start your app.
 
