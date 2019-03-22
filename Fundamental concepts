@@ -10,7 +10,8 @@ React Native allows you to use your same react skills to build native moblie app
 between web, Android and IOS applications. 
 
 
-React is not a complete solution, React is a library...
+React is not a complete solution, React is a library... (pure of rendering, event handling). One way data flow, react 
+is a declarative style. declarative style is good for easier to reason and easier to program. 
 So you need other soluitons to achive other web development goals. React is small (it focuses on only one thing building user Interfaces)
 it is not a complete solution, you need other libraries to form a complete soluiton. 
 
@@ -70,3 +71,6 @@ React pics the later (user power of javascript to generate html) and eliminates 
 One big advantage of this HTML and Javascript approach is how it enables React to Keep and use the Virtual representation of HTML view in memory.
 Which is commonly known as Virtual DOM (or tree reconsilation algorithm). React uses virtual DOM, react uses virtual DOM to compare versions of the U.I
 in memory before it acts on them. 
+
+Architecuture: 
+
