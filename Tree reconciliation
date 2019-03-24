@@ -1,0 +1,2 @@
+Tree conciliation is algo used by React to update the DOM ( It is efficient compared to direct update of DOM). 
+React updates only elements which needs update, this feature of React makes it performance gain in updating DOM. 
