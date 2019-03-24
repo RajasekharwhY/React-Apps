@@ -2,6 +2,11 @@
 2. react has a special function named useState()it is going to return two itmes for us
 the first Item is a state object and second item is a function to change that state object
 
+''''''''''
+useState() fucntion in react is called Hook in react world. this simple function we used 
+to hook to the state.
+''''''''''
+
 3. The state object can be anything like number, string, array or any object. 
 for our example we use state object as number (with variable name counter, and upating furnciton name 
 as setCounter
@@ -13,4 +18,8 @@ two variables (counter, setCounter) in one line.
 6. useState has input parameter, which we use to set Initial value of state. in our example we use 0.
 7. Jsx supports dynamic expression {} to display the variable values.
 8. to use the setCounter function, every time we click or respond to any event, we need to introduce 
-event handler, this looks similar like DOM API.. ..unlike javascript eventhandler 
+event handler, this looks similar like DOM API.. ..unlike DOM version of click event which recieves the string..
+the react (jsx) recieves the function refernce so we use {} you can also inline the function definition in side the 
+curley braces. We can use the arrow function to accomplish this.
+{()=> console.log()}
+9. 
