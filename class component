@@ -1,0 +1,7 @@
+few components related to class components;
+two main concepts
+1. concept of constructor
+2. concept of this keyword
+3. You need to hagve Render() function required for a class component
+
+spread operator [...]
