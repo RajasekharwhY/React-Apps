@@ -1,0 +1,4 @@
+Created Ec2 instance
+installed putty, putty gen to generate private key
+able to connect to Ec2 instance
+struck at copying files to /var/www/ folder 
