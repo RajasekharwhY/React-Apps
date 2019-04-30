@@ -2,3 +2,5 @@ Created Ec2 instance
 installed putty, putty gen to generate private key
 able to connect to Ec2 instance
 struck at copying files to /var/www/ folder 
+
+https://superuser.com/questions/906692/why-i-cant-access-to-this-directory-after-that-i-use-the-chown-command
