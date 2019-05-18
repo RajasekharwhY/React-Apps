@@ -1,4 +1,14 @@
+Today security is important, Developers are dependent on Auth providers to secure their apps. Auth 0 and Akta are two most popular
+providers. Auth 0 Is offered free tier for 7000 active users. 
+
 Auth0 - is a security provider 
-OAuth 2-0 is a securty protocol :  
+OAuth 2-0 is a securty protocol :  (what you are allowed to do ) 
 ---------------------------------
 It is about Authorisation it is about once you log in what you are allowed to do. 
+OAuth gives us access to thrid party data. Oauth allows applications to acess data from third party applications.
+
+O Auth Setup:
+-------------
+You need to register your app with Third party providers like Facebook, google, microsoft 
+
+O Auth Roles, O Auth Flow : 
