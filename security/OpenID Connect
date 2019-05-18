@@ -12,7 +12,7 @@ OpenID history --> OpneID, OpendID 2.0 , OpenIDConnect.
 
 OpenId Connect adds three key items: 
 ------------------------------------
-1. Json web token 
+1. Json web token (Identity Tockens)
 2. End point for requesting user informtion.
 3. Standadised set of scopes (scope is a facny word for permssions).
 
