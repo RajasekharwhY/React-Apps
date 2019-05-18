@@ -1,1 +1,28 @@
 
+As we are studying for some time, OAuth is for Authorisation protocal, but it is not for Authentication. 
+To resolve the main concern of Authentication, OpenIDConnect on top of OAuth. (OIDC) - Open ID connect. 
+
+With OpenID connect, you dont have to maintain the user passwords.
+Open ID Connect handles the responsiblity of putting the users passwords in the hands of expert service providers.
+
+So OpenID connect is the standard way of authenticating the users when Autherisation is handled by OAuth.
+Open ID connect is a standard approach which integrates with OAuth.
+
+OpenID history --> OpneID, OpendID 2.0 , OpenIDConnect.
+
+OpenId Connect adds three key items: 
+------------------------------------
+1. Json web token 
+2. End point for requesting user informtion.
+3. Standadised set of scopes (scope is a facny word for permssions).
+
+Anyone who know how to work with sending Json request and repsonse, can use OpenID connect from scrach
+              ==========================================
+using standard crypto signature verification libraries
+               ========================================    
+               
+We use Auth0 (you dont need to deal with all crypto libraries) for Implementing OpenID Connect.  
+Some of the open ID connect terms we need to know: 
+--------------------------------------------------
+1. IDentity Providers ( who holds the users informaiton like Google, Facebook, Micorsoft, Twitter ) 
+2. Reling party  ( Your app ) 
