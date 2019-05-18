@@ -1,14 +1,66 @@
 Today security is important, Developers are dependent on Auth providers to secure their apps. Auth 0 and Akta are two most popular
 providers. Auth 0 Is offered free tier for 7000 active users. 
 
-Auth0 - is a security provider 
+What are some of the modern security standards:
+------------------------------------------------
+
+1). OAuth 2.0
+2). OpenID connect 
+3). Json web Tockens 
+
+Auth0 / Akta - are most popular security providers, in this we are going to lean Auth0 
+
 OAuth 2-0 is a securty protocol :  (what you are allowed to do ) 
 ---------------------------------
 It is about Authorisation it is about once you log in what you are allowed to do. 
 OAuth gives us access to thrid party data. Oauth allows applications to acess data from third party applications.
+Free tier supports 7000 active users.
 
-O Auth Setup:
+If your app needs to access thrid party data, assume that you build a reacg app that needs to use users basic google 
+account data, with OAuth we can ask the user to permission to access their data. 
+
+Concent screen : consent to share specific information. In OAuth terems these permissions are called scopes. scope is an
+another word for permissions. Scope is a string that denotes type of access like readonly access to google drive, 
+write only access. 
+
+so user app user just need to accept the concent to grant your applicaton app 
+
+OAuth Setup:
 -------------
-You need to register your app with Third party providers like Facebook, google, microsoft 
+You need to register your react app with Third party service providers like Facebook, google, microsoft , 
+your just have to give them (service providers like Facebook, Google, Microsoft)
+the details like app name, website name and call back url. 
+Since we are using Auth0 you dont need to go to each provider , Auth0 will handle the footwork for us.
 
-O Auth Roles, O Auth Flow : 
+
+O Auth Roles: 
+---------------
+Resource Owner : Account owner, if you are a user trying to login to the react app, you are considered a resource owner.  
+Client         : App that wants to access the users account, the user must give the permission to client to do so. 
+Auth Server    : Provides Auth and access tokens. For us Auth server will be Auth-0 
+Resource server : Resource server holds some protected infromation (this is the Api your application want to access) 
+
+
+O Auth Flow : 
+-------------- 
+1 . Client app    -------------> sends a request to --------> Resource user to consent to acess his account 
+                                                                          |
+                                                                          |
+                                                                          |
+2.  Client App (Auth grant)  <-----------Resource Owner accepts the request sent by client app. 
+       |
+       |
+       |
+3.  Client App (sends this Auth Grant & authentication of apps Identity) --------->  Authorisation server ( AuthO) |
+                                                                                               |
+                                                                                               |
+                                                                                               |
+ 4.  Client app                       (Sends Access token to client app ) <----------- Authorisation server ( AuthO)
+ once client app recieves access token then it is allowed to call client protected API. This means we can call 
+ this access token to call some API.  (Resource server are where the API's are hosted.) as long as 
+ the Access token is valid the Resource server will send the requeted data. 
+ 
+ Now lets go and request some user data : 
+ 
+ 
+ 
