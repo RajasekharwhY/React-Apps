@@ -1,6 +1,9 @@
 Props are readonly -> they are available from parent to child componenets (top down uidirectional)
 Props are Immutable meaning they can not be changed. 
 
-State : on the other hand, Every componet have state object, in treditional front end scenarios, 
+State : on the other hand,(The state is a javascript object that lives inside a each component, we can access it using this.) 
+Every componet have state object, in treditional front end scenarios, 
 You need to update the DOM. In react you need to update the State object (OR STATE OF A COMPONENT) so that the background
 work or rendering will be handled by REAct. 
+
+
